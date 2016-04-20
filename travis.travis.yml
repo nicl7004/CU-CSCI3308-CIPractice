@@ -1,4 +1,0 @@
-language: c
-before_install: make deb
-script: make clean && make test && ./geometry_test
-sudo: required
