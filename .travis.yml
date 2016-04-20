@@ -1,4 +1,4 @@
 language: c
-before_install: make deb
+before_install: make dep
 script: make clean && make test && ./geometry_test
 sudo: required
